@@ -1,0 +1,255 @@
+﻿.myname {
+    font-size: 6.0em;
+    padding-top: 40px;
+    color: #586064;
+    margin-left:30px;
+}
+.bodyclass {
+    background-color: #333333;
+    color: #ffffff;
+}
+.headerr {
+    background-color: #333333;
+    color: #ffffff;
+    border: 0px solid black;
+    outline: none;
+}
+.myimage {
+    border-radius: 100%;
+    margin-left:30px;
+    margin-bottom:30px;
+}
+.lang {
+    background-color: #586064;
+    color: whitesmoke;
+    margin:0px 0px 0px 0px;
+    height=100%;
+    
+}
+.select {
+    margin-left: 0px;
+    margin-top: 0px;
+    font-size: 1.6em;
+    font-family:Arial;
+    font-weight =400;
+    color: white;
+}
+.active {
+    margin-left: 0px;
+    margin-top: 0px;
+    font-size: 1.6em;
+    font-family: Arial;
+    font-weight =400;
+    color: white;
+    background-color:lightslategrey;
+}
+.details{
+    padding-left:20px;
+}
+.education{
+
+}
+#skills{
+
+}
+#projects{
+
+}
+#achiev{
+
+}
+#certif{
+
+}
+/*.education {
+    margin-left: 0px;
+    margin-top: 0px;
+    font-size: 1.6em;
+    font-family: Arial;
+    font-weight =400;
+    color: white;
+}
+.certif {
+    margin-left: 0px;
+    margin-top: 0px;
+    font-size: 1.6em;
+    font-family: Arial;
+    font-weight =400;
+    color: white;
+}
+.projects {
+    margin-left: 0px;
+    margin-top: 0px;
+    font-size: 1.6em;
+    font-family: Arial;
+    font-weight =400;
+    color: white;
+}
+.achiev {
+    margin-left: 0px;
+    margin-top: 0px;
+    font-size: 1.6em;
+    font-family: Arial;
+    font-weight =400;
+    color: white;
+}*/
+#my_desp {
+    font-family:'Comic Sans MS';
+    font-weight: 400;
+    color: #586064;
+}
+.namee {
+    margin-top: 25px;
+    font-family: 'Comic Sans MS';
+    font-size: 2.6em;
+    font-weight =400;
+    color: #586064;
+}
+.descp {
+    font-family: 'Comic Sans MS';
+    color: #586064;
+}
+#ph {
+    padding-top: 20px;
+    padding-left: 20px;
+    font-family: 'Comic Sans MS';
+    color: #435B70;
+}
+#email {
+    padding-left: 20px;
+    font-family: 'Comic Sans MS';
+    color: #435B70;
+    padding-bottom: 10px;
+}
+#linee{
+    background-color:darkslategray;
+}
+.card {
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+   
+    transition: 0.3s;
+    border: 10px thin #435B70;
+
+   
+}
+
+    /* On mouse-over, add a deeper shadow */
+    .card:hover {
+        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    }
+
+/* Add some padding inside the card container */
+.container {
+    padding: 2px 16px;
+}
+#educ{
+    display:none;
+    
+}
+#edu{
+    display:none;
+}
+#cert{
+    display:none;
+}
+#proj{
+    display:none;
+}
+.nac {
+    background-color: #333333;
+    color: whitesmoke;
+}
+#java {
+    width: 20%;
+    padding-left:0px;
+    padding-right:0px;
+    background-color:aqua;
+}
+#c {
+    width: 20%;
+    padding-left: 0px;
+    padding-right: 0px;
+    background-color: aqua;
+}
+#python {
+    width: 20%;
+    padding-left: 0px;
+    padding-right: 0px;
+    background-color: aqua;
+}
+#mysql {
+    width: 20%;
+    padding-left: 0px;
+    padding-right: 0px;
+    background-color: aqua;
+}
+#htmlcss {
+    width: 20%;
+    padding-left: 0px;
+    padding-right: 0px;
+    background-color: aqua;
+}
+#androidprog {
+    width: 20%;
+    padding-left: 0px;
+    padding-right: 0px;
+    background-color: aqua;
+}
+body {
+    padding-top: 50px;
+    background: #555;
+}
+
+.flip {
+    -webkit-perspective: 800px;
+    perspective: 800px;
+    position: relative;
+    text-align: center;
+    
+}
+
+    .flip .card.flipped {
+        -webkit-transform: rotateY(-180deg);
+        transform: rotateY(-180deg);
+    }
+
+    .flip .card {
+        width: 370px;
+        height: 378px;
+        -webkit-transform-style: preserve-3d;
+        -webkit-transition: 0.5s;
+        transform-style: preserve-3d;
+        transition: 0.5s;
+        background-color: #fff;
+    }
+
+        .flip .card .face {
+            -webkit-backface-visibility: hidden;
+            backface-visibility: hidden;
+            z-index: 2;
+        }
+
+        .flip .card .front {
+            position: absolute;
+            width: 270px;
+            z-index: 1;
+        }
+
+        .flip .card .img {
+            position: relative;
+            width: 270px;
+            height: 178px;
+            z-index: 1;
+            border: 2px solid #000;
+        }
+
+        .flip .card .back {
+            padding-top: 10%;
+            -webkit-transform: rotateY(-180deg);
+            transform: rotateY(-180deg);
+        }
+
+.inner {
+    margin: 0px !important;
+}
